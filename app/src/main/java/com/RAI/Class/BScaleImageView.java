@@ -142,7 +142,7 @@ public class BScaleImageView extends ImageView
                         mChangeMatrix.set(mMatrix);
                         mFirstPointF.set(event.getX(), event.getY());
                         mState = STATE_DRAG;
-                        Log.d(TAG, "---------------STATE_DRAG");
+                        //Log.d(TAG, "---------------STATE_DRAG");
                         break;
 
                     //第二點按下進入
